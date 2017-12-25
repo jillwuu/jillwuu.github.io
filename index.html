@@ -1,54 +1,50 @@
-<!doctype html>
-
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8">
-
-    <title>Jill Wu</title>
-    <meta name="author" content="Jill Wu">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:light,bold,lightitalic,regularitalic,regular" rel="stylesheet">
+	<title>Jill Wu</title>
+	<link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="js/semantic.min.js"></script>
+	<link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <div id = "header">
-        <a href = "index.html"><img src = "assets/img/logo.jpg" class = "logo"></a>
-        <ul class ="nav">
-            <li class = "current"><a href = "index.html"> about </a></li>  |
-            <li><a href = "photography.html"> photography </a></li> | 
-            <li><a href = "projects.html"> projects </a></li>
-        </ul>
-    </div>
-    
-    
-    <div id = "body-container">
-        <h1>about me</h1>
-        
-        <img class = "profile" src = "assets/img/profile.jpg">
-        <p class = "bio">
-            Hi, I’m Jill! I’m currently a sophomore at Cornell University, studying Computer Science in the College of Engineering. I'm currently working on <a href = "http://cornellmedium.design/">Medium Design Collective</a> as part of the events team. 
-        <br>
-        <br>
-            I love capturing moments through my camera, satiating my curiosity for all things tech, while dabbling in various coding & design projects on the side. You can find me in your neighborhood coffee or boba shop, or attempting to create something aesthetic (probably for the 'gram).
-        <br>
-        <br>
-            Feel free to reach out if you want to shoot or collaborate on something!
-        </p>
-        
-        <p>
-            
-            <ul class ="socials">
-                <li>Find me on: </li>
-                <li><a href = "http://www.instagram.com/jillwuu">instagram</a></li>
-                <li><a href = "http://www.linkedin.com/in/jillwuu">linkedin</a></li>
-                <li><a href = "http://www.github.com/jillwuu">github</a></li>
-                <li><a href = "mailto:jw975@cornell.edu">email</a></li>
-                <li><a href = "assets/resume.pdf">resume</a></li>
-            </ul>
-        </p>
-    
-    </div>
-    
-    <script src="js/scripts.js"></script>
+	<div class = "stackable ui grid container" id = "content-container">
+		<div class = "six wide column">
+			<h1 id = "name-header">
+				Jill Wu
+			</h1>
+		</div>
+		<div class = "eight wide column">
+			<h2 id = "home-description">computer science ’20 @ cornell, developer, designer, photographer</h2>
+		</div>
+	</div>
+
+	<div class = "stackable ui grid container">
+		<!--LINKS -->
+		<div class = "six wide column" id = "icon-links">
+			<a href = "https://www.instagram.com/jillwuu/" class = "icon">
+				<img src = "assets/img/instagram-logo.png">
+			</a>
+			<a href = "https://www.linkedin.com/in/jillwuu/" class = "icon">
+				<img src = "assets/img/linkedin-logo.png">
+			</a>
+			<a href = "https://github.com/jillwuu" class = "icon">
+				<img src = "assets/img/github-logo.png">
+			</a>
+			<a href = "assets/JillWuResume.pdf" class = "icon">
+				<img src = "assets/img/resume.png">
+			</a>
+		</div>
+		<div class = "four wide column" id = "links" style = "float: left">
+			<ul>
+				<li class = "links"><a href = "about.html">about →</a></li>
+				<li class = "links"><a href = "work.html">work →</a></li>
+			 	<li class = "links"><a href = "photography.html">photography →</a></li>
+			 </ul>
+		</div>
+
+
+	</div>
+
 </body>
 </html>
