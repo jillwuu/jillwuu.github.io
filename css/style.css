@@ -120,7 +120,7 @@ a{
 
 .about{
 	font-family: Maison Neue Mono;
-	width: 90%;
+	width: 98%;
 }
 
 
@@ -172,6 +172,16 @@ a{
 	width: 350px;
 	text-align: left;
 	padding-top: 130px;
+}
+
+#work-description{
+	font-family: Maison Neue Light;
+	font-size: 18px;
+	font-weight: 250;
+	float: right;
+	width: 350px;
+	text-align: left;
+	padding-top: 10px;
 }
 
 .next{
