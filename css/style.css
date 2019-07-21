@@ -101,7 +101,7 @@ a{
 
 #about-header{
 	font-family: Maison Neue Light;
-	font-size: 100px;
+	font-size: 90px;
 	font-weight: 250;
 	float: left;
 	width: 350px;
@@ -130,7 +130,12 @@ a{
 }
 
 .description{
-	font-size: 16px;
+	font-size: 14px;
+}
+
+.header{
+	font-size: 20px;
+	font-weight: bold;
 }
 
 .contact{
